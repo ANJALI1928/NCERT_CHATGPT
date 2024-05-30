@@ -1,9 +1,0 @@
-langchain
-pypdf2 
-streamlit
-langchain-community
-pdfminer.six
-Chroma
-chromadb
-tqdm
-openai

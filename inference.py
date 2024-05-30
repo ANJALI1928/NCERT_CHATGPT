@@ -2,8 +2,8 @@ import os
 import time
 import streamlit as st
 from dotenv import load_dotenv
-from langchain_openai import OpenAI
-from langchain_openai import OpenAIEmbeddings
+from langchain.llms import OpenAI
+from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain.chains.question_answering import load_qa_chain
 

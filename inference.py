@@ -3,7 +3,7 @@ import time
 import streamlit as st
 from dotenv import load_dotenv
 from openai import OpenAI
-from langchain_openai import OpenAIEmbeddings
+from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain.schema import HumanMessage
 

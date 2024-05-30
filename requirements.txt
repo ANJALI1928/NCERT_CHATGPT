@@ -6,3 +6,4 @@ pdfminer.six
 Chroma
 chromadb
 tqdm
+openai
